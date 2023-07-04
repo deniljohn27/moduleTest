@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>GetMyIp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="page1">
+        <p>My Public IP Address : <span id="ipAddress1"></span></p>
+        <button id="getData">Get Data</button>
+    </div>
+    <div id="page2">
+        <div class="details">
+            <p>My Public IP Address : <span id="ipAddress2"></p>
+        </div>
+
+            <div class="detailsCoordinates">
+                <div class="region">
+                    <div class=""><p>Lat : <span id="lat"></span></div>
+                    <div class=""><p>City : <span id="city"></span></div>
+                    <div class=""><p>Organisation : <span id="organisation"></span></div>
+                </div>
+                <div class="region">
+                    <div class=""><p>Long : <span id="long"></span></div>
+                    <div class=""><p>Region : <span id="region"></span></div>
+                    <div class=""><p>Hostname : <span id="hostname"></span></div>
+                </div>
+            </div>
+        
+            <div class="map" id="map">
+
+            </div>
+            <div class="detailsTime">
+                <div class=""><p>Time Zone: <span id="timez"></span></div>
+                <div class=""><p>Date And Time: <span id="date"></span></div>
+                <div class=""><p>Pincode : <span id="pin"></span></div>
+                <div class=""><p>Message: <span id="message"></span></div>
+            </div>
+            <div class="postal">
+                <input type="text" name="" id="search" placeholder="Search">
+                <div class="postContainer" id="container">
+                    <!-- <div class="post">
+                        <div class=""><p>Name <span id="name"></span></div>
+                        <div class=""><p>Branch Type: <span id="branch"></span></div>
+                        <div class=""><p>Delivery Status: <span id="status"></span></div>
+                        <div class=""><p>District: <span id="district"></span></div>
+                        <div class=""><p>Division: <span id="division"></span></div>    
+                    </div> -->
+                </div>
+            </div>
+            
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
